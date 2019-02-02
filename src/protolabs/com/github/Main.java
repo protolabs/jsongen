@@ -111,7 +111,7 @@ public class Main {
 
     private static void createDocumentsCoc(Integer n, Integer m, Integer k) {
         m = m < n ? n : m;
-        List<String> strings = randomStrings(m);
+        List<String> strings = randomStrings(m + 1);
         for (int i = 0; i < n; i++) {
             System.out.print("{");
             List<String> workingStrings = new ArrayList<>(strings);
