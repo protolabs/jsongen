@@ -1,7 +1,7 @@
 # jsongen
 
 Jsongen is a quick and dirty JSON data generator for benchmarking 
-purposes.
+purposes. 
 
 ## Getting started
 
